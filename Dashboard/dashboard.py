@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # Load the dataset
 def load_data():
-    return pd.read_csv("Air Quality.csv")
+    return pd.read_csv("AirQuality.csv")
 
 # Load and cache the data
 all_data = load_data()
